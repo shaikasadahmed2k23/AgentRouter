@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0F172A;
+  --card: #1E293B;
+  --teal: #0D9488;
+  --teal-light: #14B8A6;
+  --mint: #5EEAD4;
+  --gold: #F59E0B;
+  --muted: #94A3B8;
+  --red: #F87171;
+}
+
+body {
+  background-color: var(--bg);
+  color: #F8FAFC;
+  font-family: 'Inter', sans-serif;
+}
+
+.scrollbar-hide::-webkit-scrollbar { display: none; }
+.scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
